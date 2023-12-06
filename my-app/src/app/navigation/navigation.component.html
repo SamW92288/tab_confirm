@@ -1,0 +1,13 @@
+<mat-tab-group (selectedTabChange)="navigate($event)" [(selectedIndex)]="tabIndex" >
+	<mat-tab id="new1" label="new1">
+		<ng-template mat-tab-label>
+        Tab1
+		</ng-template>
+	</mat-tab>
+	<mat-tab id="new2" label="new2">
+		<ng-template mat-tab-label>
+			Tab2
+		</ng-template>
+	</mat-tab>
+</mat-tab-group>
+<router-outlet></router-outlet>

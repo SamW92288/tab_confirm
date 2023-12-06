@@ -1,0 +1,5 @@
+<p>{{textValue}}</p>
+
+<label for="lname">Field:</label>
+<input [(ngModel)] = 'changeValue'  type="text" id="lname" name="lname" (change)="textChanged()" style="margin-left: 5px;"><br><br>
+<input type="button" (click)="saveText()" value="Submit">
